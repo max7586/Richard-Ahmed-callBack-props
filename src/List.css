@@ -1,7 +1,7 @@
 /* LIST STYLES */
 
 .List {
-  min-width: 218px;
+  width: 100%;
 }
 
 .List:not(:first-of-type) {
@@ -21,7 +21,8 @@
 .List-header,
 .List-cards {
   background-color: #dfe3e6;
-  padding: 0 6px 4px;
+  padding: 6px 6px 4px;
+  /* border-radius: 7px; */
 }
 
 .List-header {
